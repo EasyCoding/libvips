@@ -25,6 +25,7 @@ BuildRequires: pkgconfig(libjpeg)
 BuildRequires: pkgconfig(OpenEXR)
 BuildRequires: pkgconfig(cfitsio)
 BuildRequires: pkgconfig(libexif)
+BuildRequires: pkgconfig(orc-0.4)
 BuildRequires: pkgconfig(libpng)
 BuildRequires: pkgconfig(fftw3)
 BuildRequires: pkgconfig(expat)
@@ -41,7 +42,6 @@ BuildRequires: gcc-c++
 BuildRequires: libtool
 BuildRequires: gtk-doc
 BuildRequires: gcc
-BuildRequires: orc
 
 %description
 Libvips is a demand-driven, horizontally threaded image processing library.
