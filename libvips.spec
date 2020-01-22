@@ -9,7 +9,7 @@ Release: 1%{?dist}
 License: LGPLv2.1+
 URL: https://github.com/%{name}/%{name}
 Summary: Fast image processing library with low memory needs
-Source0: %{url}/releases/download/v%{version}/vips-%{version}.tar.gz
+Source0: %{url}/releases/download/v%{version}/%{shortname}-%{version}.tar.gz
 
 BuildRequires: pkgconfig(poppler-glib)
 BuildRequires: pkgconfig(librsvg-2.0)
