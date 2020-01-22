@@ -6,7 +6,7 @@ Name: libvips
 Version: 8.9.0
 Release: 1%{?dist}
 
-License: LGPLv2.1+
+License: LGPLv2+
 URL: https://github.com/%{name}/%{name}
 Summary: Fast image processing library with low memory needs
 Source0: %{url}/releases/download/v%{version}/%{shortname}-%{version}.tar.gz
