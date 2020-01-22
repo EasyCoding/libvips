@@ -64,7 +64,7 @@ Compared to similar libraries, libvips runs quickly and uses little memory.
 
 %package doc
 Summary: Documentation for fast image processing library with low memory needs
-Requires: %{name}%{?_isa} = %{?epoch:%{epoch}:}%{version}-%{release}
+Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
 BuildArch: noarch
 
 %description doc
