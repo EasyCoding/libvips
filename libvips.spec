@@ -94,7 +94,7 @@ rm -f %{buildroot}%{_libdir}/*.la
 %{_mandir}/man1/*
 
 %files doc
-%doc %{_datadir}/gtk-doc/html/%{name}
+%doc %{_datadir}/gtk-doc/
 
 %files devel
 %{_includedir}/%{shortname}/
